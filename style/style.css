@@ -144,7 +144,7 @@ main>section{
     padding-left: 5px;
     margin-bottom: 20px;}
  .feture-des{
-    margin-bottom: 80px;
+    margin-bottom: 20px;
  }
  #experience-badge{
     padding: 45px 42px;
@@ -242,7 +242,10 @@ footer{
         gap: 20px;
     }
     .fact-box{
-        margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
     }
     .footer-part{
         display: flex;

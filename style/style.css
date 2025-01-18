@@ -29,6 +29,8 @@ main>section{
 }
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .section-title{
     font-size: 3rem;
@@ -215,13 +217,35 @@ footer{
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 200px;
+    /* font-size: 1rem; */
 }
-
+.footer-title{
+    font-size: 1rem;
+    font-weight: 400;
+}
 /* responsive small device */
 
 @media screen and (max-width:576PX) {
-    .nav,.nav-links{
+    .nav,.nav-links ,.feture-section ,.Features-you-will-love-enjoy {
         flex-direction: column;
     }
-    
+    .img-container , .fact-box{
+        grid-template-columns: repeat(1 ,1fr);
+    }
+
+    .sponspors-img{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+    .fact-box{
+        margin: 0 auto;
+    }
+ #experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 0px;
+      }
+
 }

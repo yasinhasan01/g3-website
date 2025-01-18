@@ -210,7 +210,7 @@ footer{
     display: flex;
     max-width: 1440px;
     margin: 0, auto;
-    /* padding: 20px 410px 20px 410px; */
+    padding: 20px 410px 20px 410px;
     border-radius: 8px;
     background-color: #FFF4E7;
     align-items: center;
@@ -244,7 +244,19 @@ footer{
     .fact-box{
         margin: 0 auto;
     }
-
+    .footer-part{
+        display: flex;
+        max-width: 1440px;
+        margin: 0, auto;
+        /* padding: 20px 410px 20px 410px; */
+        border-radius: 8px;
+        background-color: #FFF4E7;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 200px;
+        /* font-size: 1rem; */
+    }
  #experience-badge{
     padding: 45px 42px;
     font-size: 1.5rem;

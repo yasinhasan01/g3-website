@@ -251,7 +251,7 @@ footer{
         display: flex;
         max-width: 1440px;
         margin: 0, auto;
-        /* padding: 20px 410px 20px 410px; */
+        padding: 0px;
         border-radius: 8px;
         background-color: #FFF4E7;
         align-items: center;

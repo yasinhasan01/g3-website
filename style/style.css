@@ -210,7 +210,7 @@ footer{
     display: flex;
     max-width: 1440px;
     margin: 0, auto;
-    padding: 20px 410px 20px 410px;
+    /* padding: 20px 410px 20px 410px; */
     border-radius: 8px;
     background-color: #FFF4E7;
     align-items: center;
@@ -224,7 +224,11 @@ footer{
     font-weight: 400;
 }
 /* responsive small device */
-
+@media screen and (max-width:768PX) {
+    .fact-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 @media screen and (max-width:576PX) {
     .nav,.nav-links ,.feture-section ,.Features-you-will-love-enjoy {
         flex-direction: column;
@@ -248,8 +252,8 @@ footer{
     margin-left: 5px;
     margin-top: 0px;
       }
-      .footer-part {
-        width: 100%;
-      }     
+    .footer-part {
+    width: 100%;
+        }     
 
 }
